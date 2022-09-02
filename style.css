@@ -68,6 +68,7 @@ button{
     background-color: hsl(25, 97%, 53%);
     color: white;
     border-radius: 16px;
+    margin-top: 20px;
 }
 button:hover{
     width: 95%;
@@ -78,6 +79,7 @@ button:hover{
     border-radius: 16px;
     transition: 500ms;
     cursor: pointer;
+    margin-top: 20px;
 }
 p, h1{
     text-transform: capitalize;
