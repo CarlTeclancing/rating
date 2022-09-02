@@ -56,7 +56,9 @@ rate5.addEventListener('click', function(){
 
 
 btn.addEventListener('click', function(){
-    alert(x)
+    
+    document.getElementById('card').style.display = 'none';
+    document.getElementById('card1').style.display = 'flex';
     rate1.style.background = 'gray'
     rate2.style.background = 'gray'
     rate3.style.background = 'gray'
