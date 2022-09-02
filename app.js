@@ -58,6 +58,7 @@ rate5.addEventListener('click', function(){
 btn.addEventListener('click', function(){
     document.getElementById('txt').innerHTML = ('You selected ' + x + ' out of 5')
     document.getElementById('card').style.display = 'none';
+    document.getElementById('card1').style.transition = '300ms';
     document.getElementById('card1').style.display = 'flex';
     rate1.style.background = 'gray';
     rate2.style.background = 'gray';
